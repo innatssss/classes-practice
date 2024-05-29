@@ -5,8 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Classes-2</title>
 
+    <link rel="stylesheet" href="t-2.css" />
     <script defer src="./t-2.js"></script>
   </head>
   <body>
+    <div class="container">
+      <div class="product" id="book">
+        <h2>Book</h2>
+        <p id="book-details"></p>
+        <button onclick="applyDiscount('book')">Apply Discount</button>
+      </div>
+      <div class="product" id="electronics">
+        <h2>Electronics</h2>
+        <p id="electronics-details"></p>
+        <button onclick="applyDiscount('electronics')">Apply Discount</button>
+      </div>
+      <div class="product" id="clothing">
+        <h2>Clothing</h2>
+        <p id="clothing-details"></p>
+        <button onclick="applyDiscount('clothing')">Apply Discount</button>
+      </div>
+    </div>
+
+    <div id="animal-info">
+      <!-- Animal info will be here -->
+    </div>
   </body>
 </html>
